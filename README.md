@@ -38,13 +38,13 @@ Your text files have to be formatted so that each line contains a sentence.
 
 **NOT YET IMPLEMENTED**, but in principle easy to do, would be to have translations divided in similar fashion and being separated by tabs on the same row after each sentence.
 
-Your file names should be formatted in a way that you want to have on your reference tier in the ELAN files. If you convert file called file.txt, then the content of reference tier will be:
+Your file names should be formatted in a way that you want to have on your reference tier in the ELAN files. Usually this would correspond, as an example, to the session name. If you convert file called file.txt, then the content of reference tier will be:
 
     "file-1", "file-2", "file-3" and so on.
 
 ## Use
 
-Go in Terminal to the folder sjd-transform and write:
+Go in Terminal to the folder **sjd2eaf** and write:
 
     Rscript sjd2eaf.R
 
