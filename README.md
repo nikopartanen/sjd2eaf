@@ -1,6 +1,6 @@
 # Textfiles to ELAN processing instructions
 
-This is a script that converts simply formatted text files into ELAN XML files. It had few small demands for your file structure and also gives as output the ELAN structure used in Saami Research Group in Saami Studies. For different output the sjd-xml2eaf.xsl file has to be modified. This is relatively simple, just don't touch to the technical things. In principle there is nothing Kildin Saami specific in this script. However, as it runs correctly it's better to have it independent from other more experimental versions. This repository will be updated when some stable new features are added.
+This is a script that converts simply formatted text files into ELAN XML files. It has a few small demands for your text file structure and also gives as output the ELAN structure used in Saami Research Group in Saami Studies. For different output the sjd-xml2eaf.xsl file has to be modified. This is relatively simple, just don't touch to the technical things. In principle there is nothing Kildin Saami specific in this script. However, as it runs correctly it's better to have it independent from other more experimental versions. This repository will be updated when some stable new features are added.
 
 ## Setup
 
@@ -58,9 +58,9 @@ Go in Terminal to the folder **sjd2eaf** and write:
 
     Rscript sjd2eaf.R
 
-This runs the script sjd2eaf.R. What should happen is that your **temp** folder gets filled with XML files and **eaf** folder gets filled with ELAN files. Each annotation has the leng    ht of ten seconds and the file will have automatically the lenght of 5 minutes if the annotations are not enough to fill it up to that. Also my idea was that the folder **temp** would simply be deleted in the end of the script, but for now I've just left it there as it is.
+This runs the script sjd2eaf.R. What should happen is that your **temp** folder gets filled with XML files and **eaf** folder gets filled with ELAN files. Each annotation has the lenght of ten seconds and the file will have automatically the lenght of 5 minutes if the annotations are not enough to fill it up to that. Also my idea was that the folder **temp** would simply be deleted in the end of the script, but for now I've just left it there as it is.
 
-Possible there could be a third folder called **raw**, from which another script would clean files to **txt**.
+Possibly there could be a third folder called **raw**, from which another script would clean files to **txt**. That could be outside the GitHub structures if the content is sensitive. Of course also the script output can be directly forwarded to some other folders if that is desired.
 
 ## Copyright
 
