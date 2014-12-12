@@ -18,7 +18,7 @@
                 <TIME_SLOT TIME_SLOT_ID="ts{(position()-1)*2+2}" TIME_VALUE="{(position()    )*10000}"/>
             </xsl:for-each>
         </TIME_ORDER>
-        <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="$Participant" TIER_ID="ref@S1">
+        <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="$Participant" TIER_ID="ref@S1">
             <xsl:for-each select="//orthography">
                 <ANNOTATION>
                     <ALIGNABLE_ANNOTATION ANNOTATION_ID="a{position()}" TIME_SLOT_REF1="ts{position()*2-1}" TIME_SLOT_REF2="ts{position()*2}">
