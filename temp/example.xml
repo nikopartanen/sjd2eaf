@@ -1,0 +1,5 @@
+<session name="example">
+  <orthography ID="example-1" PARTICIPANT="S1">This is a sentence.</orthography>
+  <orthography ID="example-2" PARTICIPANT="S1">And so is this.</orthography>
+  <orthography ID="example-3" PARTICIPANT="S1">Our number is irrelevant for this.</orthography>
+</session>
