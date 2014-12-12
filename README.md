@@ -38,9 +38,19 @@ Your text files have to be formatted so that each line contains a sentence. They
 
 **NOT YET IMPLEMENTED**, but in principle easy to do, would be to have translations divided in similar fashion and being separated by tabs on the same row after each sentence.
 
-Your file names should be formatted in a way that you want to have on your reference tier in the ELAN files. Usually this would correspond, as an example, to the session name. If you convert file called file.txt, then the content of reference tier will be:
+The script converts the text files into a simple XML structure, file for file:
 
-    "file-1", "file-2", "file-3" and so on.
+    <session name="example">
+      <orthography ID="example-1" PARTICIPANT="S1">This is a sentence.</orthography>
+      <orthography ID="example-2" PARTICIPANT="S1">And so is this.</orthography>
+      <orthography ID="example-3" PARTICIPANT="S1">Our number is irrelevant for this.</orthography>
+    </session>
+
+Then these are turned to ELAN files through XSL.
+
+Your file names should be formatted in a way that you want to have on your reference tier in the ELAN files. Usually this would correspond, as an example, to the session name. If you convert file called *example.txt*, then the content of reference tier will be:
+
+    "example-1", "example-2", "example-3" and so on.
 
 ## Use
 
