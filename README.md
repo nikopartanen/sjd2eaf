@@ -18,7 +18,7 @@ This installs the packages required for the script to run. It has to be done onl
 
 You have to have the following folder structure:
 
-    |-sjd-transform
+    |-sjd2eaf
       |-README.txt
       |-saxon9he.jar
       |-sjd-xml2eaf.xsl
