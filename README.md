@@ -35,6 +35,8 @@ Your text files have to be formatted so that each line contains a sentence.
     And so is this.
     Our number is irrelevant for this.
 
+**NOT YET IMPLEMENTED**, but in principle easy to do, would be to have translations divided in similar fashion and being separated by tabs on the same row after each sentence.
+
 Your file names should be formatted in a way that you want to have on your reference tier in the ELAN files. If you convert file called file.txt, then the content of reference tier will be:
 
     "file-1", "file-2", "file-3" and so on.
