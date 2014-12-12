@@ -8,8 +8,9 @@ To get started just write to Terminal:
 
     git clone https://github.com/nikopartanen/sjd2eaf
 
-At first you have to install R or RStudio on your computer and run lines:
+At first you have to install R on your computer and run these lines at Terminal (or in RStudio, or in R GUI, whatever you like):
 
+    R
     install.packages("plyr")
     install.packages("dplyr")
     install.packages("XML")
