@@ -48,7 +48,9 @@ Go in Terminal to the folder **sjd2eaf** and write:
 
     Rscript sjd2eaf.R
 
-This runs the script sjd2eaf.R. What should happen is that your **temp** folder gets filled with XML files and **eaf** folder gets filled with ELAN files. Now there is some bug that all ELAN files had the lenght of exactly five minutes that was certainly not the intention. Also my idea was that the folder **temp** would simply be deleted in the end of the script, but for now I've just left it there as it is.
+This runs the script sjd2eaf.R. What should happen is that your **temp** folder gets filled with XML files and **eaf** folder gets filled with ELAN files. Each annotation has the leng    ht of ten seconds and the file will have automatically the lenght of 5 minutes if the annotations are not enough to fill it up to that. Also my idea was that the folder **temp** would simply be deleted in the end of the script, but for now I've just left it there as it is.
+
+Possible there could be a third folder called **raw**, from which another script would clean files to **txt**.
 
 ## Copyright
 
