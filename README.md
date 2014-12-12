@@ -1,6 +1,6 @@
 # Textfiles to ELAN processing instructions
 
-This is a script that converts simply formatted text files into ELAN XML files. It had few small demands for your file structure and also gives as output the ELAN structure used in Saami Research Group in Saami Studies. For different output the sjd-xml2eaf.xsl file has to be modified. This is relatively simple, just don't touch to the technical things. In principle there is nothing Kildin Saami specific in this script.
+This is a script that converts simply formatted text files into ELAN XML files. It had few small demands for your file structure and also gives as output the ELAN structure used in Saami Research Group in Saami Studies. For different output the sjd-xml2eaf.xsl file has to be modified. This is relatively simple, just don't touch to the technical things. In principle there is nothing Kildin Saami specific in this script. However, as it runs correctly it's better to have it independent from other more experimental versions. This repository will be updated when some stable new features are added.
 
 ## Setup
 
