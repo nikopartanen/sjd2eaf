@@ -28,11 +28,11 @@ orth$filename <- gsub("/", "", orth$filename, perl = TRUE)
 # And we need to rename one column as well.
 
 names(orth) <- sub("^V1$", "orthography", names(orth))
-
+orth
 # After this the data frame is split into a list where each data frame is an object on the list.
 
 orth <- split(orth, orth$filename)
-
+orth
 # This is a function that creates XML files. In principle the participant ID could be in text file 
 # and added in this point to the XML file.
 
