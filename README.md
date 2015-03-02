@@ -19,16 +19,16 @@ This installs the packages required for the script to run. It has to be done onl
 
 You have to have the following folder structure:
 
+    |-saxon9he.jar
     |-sjd2eaf
       |-README.txt
-      |-saxon9he.jar
       |-sjd-xml2eaf.xsl
       |-sjd2eaf.R
         |-eaf
         |-temp
         |-txt
 
-Saxon XSLT and XQuery Processor Home Edition can be downloaded from [here](http://sourceforge.net/projects/saxon/files/Saxon-HE/9.6/). It has been published as open source so in principle it could be added here as well, but I need to check the exact licence first and see what has to be included with it.
+Saxon XSLT and XQuery Processor Home Edition can be downloaded from [here](http://sourceforge.net/projects/saxon/files/Saxon-HE/9.6/). It has been published as open source so in principle it could be added here as well, but I need to check the exact licence first and see what has to be included with it. It should be one folder higher from the script itself.
 
 Your text files have to be formatted so that each line contains a sentence. They have to be in folder **txt**. Folder **temp** contains temporary XML files that are created for XSL file. Folder **eaf** contains final output.
 
