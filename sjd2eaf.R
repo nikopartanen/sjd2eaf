@@ -63,5 +63,5 @@ files <- gsub(".txt$", "", files, perl = TRUE)
 # the object "files". I'm not sure how stressing this is for computer if there are, as an example, hundreds of files, but for now it works quite nicely.
 
 for (i in 1:length(files)){
-        system(paste0("java -jar ../saxon9he.jar -s:temp/", files[i], ".xml -xsl:sjd-xml2eaf.xsl -o:eaf/", files[i], ".eaf"))
+        system(paste0("java -jar ~/saxon9he.jar -s:temp/", files[i], ".xml -xsl:sjd-xml2eaf.xsl -o:eaf/", files[i], ".eaf"))
 }
